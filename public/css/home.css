@@ -1,0 +1,53 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Blue gradient from top to bottom */
+    padding: 50px 0;
+}
+
+table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    vertical-align: middle;
+} 
+
+
+.action-buttons button {
+    margin: 0 5px; /* Giving space between the buttons */
+    padding: 5px 10px; 
+}
+
+.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 5px;
+    font-weight:300;
+    display: inline-block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+
+.btn-primary {
+    background: linear-gradient(135deg, #48aaff, #007AC1);
+    color: white;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #ff8080, #FF6B6B);
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+.footer{
+    position: fixed;
+}
+.header{
+    position: fixed;
+}

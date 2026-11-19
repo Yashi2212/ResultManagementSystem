@@ -1,0 +1,4 @@
+to run the app 
+use command-- nodemon app.js
+connect to mongodb cluster first then search
+localhost:3000 to get the web page 

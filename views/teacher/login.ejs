@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/css/login.css">
+<%- include('../partials/header.ejs') %>
+
+
+    <!-- Main content -->
+    <div class="page-wrapper">
+        <!-- Login form for teacher -->
+        <div class="login-form">
+            <div class="login-heading">Teacher Login</div>
+            <form method="post" action="/teacher/login" id="login-form">
+                <div>
+                    <label for="userid">User ID:</label>
+                    <input type="text" id="userid" name="userid" placeholder="Enter your User ID" >
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your Password">
+                </div>
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+
+                <p id="errorMsg" style="color: red;"></p> <!-- Error message will appear here -->
+
+            </form>
+        </div>
+    </div>
+<%- include('../partials/footer.ejs') %>
+<!-- <script src="/js/teacherlogin.js" type="text/javascript"></script> -->
+
+

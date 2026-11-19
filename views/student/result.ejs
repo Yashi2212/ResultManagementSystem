@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/result.css"> 
+<%- include('../partials/header.ejs') %>
+<div class="container-fluid mt-4" style="margin-bottom: 15px;">
+    <div class="row">
+        <div class="col-6">
+        </div>
+        <div class="col-6 text-right">
+          <a href="/logout"><button type="button" class="btn btn-secondary btn-sm">Logout</button>
+          </a>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="result-card">
+                    <h2>Exam Result</h2>
+                    <div class="result-data">Roll Number: <%= val.rollno %></div>
+                    <div class="result-data">Name: <%= val.name %></div>
+                    <div class="result-data">Date of Birth: <%= date %></div>
+                    <div class="result-data">Score: <span class="result-score"><%= val.score %>/100</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('../partials/footer.ejs') %>
+

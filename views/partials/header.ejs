@@ -1,0 +1,41 @@
+ <!-- Header -->
+<style>
+    /* .header {
+    background: linear-gradient(135deg, #007AC1, #005A8D);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeInDown 2s ease;
+    font-size: 24px;
+} */
+
+
+/* Existing .header styles */
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #007AC1, #005A8D);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeInDown 2s ease;
+    font-size: 24px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 18px; 
+        padding: 10px 0;
+    }
+    .header + * {
+        padding-top: 50px;
+    }
+}
+
+</style>
+
+ <div class="header">
+    Result Management System
+</div>

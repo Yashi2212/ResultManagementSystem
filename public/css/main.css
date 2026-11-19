@@ -1,0 +1,16 @@
+/* body{
+    background-color: rgb(199, 208, 224);
+} */
+
+  
+  @media screen and (max-width: 768px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .btn-primary, .btn-secondary {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+    }
+}

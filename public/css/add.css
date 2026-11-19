@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Blue gradient from top to bottom */
+}
+
+.student-form {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.student-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    background-color: #343a40;
+    border: none;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #23272b;
+}
+
+.student-form input[type="text"],.student-form input[type="number"],.student-form input[type="date"] {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+.student-form input[type="text"]::placeholder, .student-form input[type="date"]::placeholder {
+    color: #aaa;
+}
+
+.student-form input[type="text"]:focus, .student-form input[type="date"]:focus {
+    border-color: #007AC1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.student-form button:active {
+    transform: scale(0.98);
+}
